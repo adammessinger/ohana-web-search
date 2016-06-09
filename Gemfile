@@ -79,7 +79,7 @@ group :development do
   # For profiling the app's performance and memory usage.
   gem 'derailed'
   gem 'rack-mini-profiler'
-  gem 'flamegraph'
+  # gem 'flamegraph'
 end
 
 group :test do
