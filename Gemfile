@@ -76,14 +76,10 @@ group :development do
   # For profiling the app's performance and memory usage.
   gem 'derailed'
   gem 'rack-mini-profiler'
-<<<<<<< HEAD
-  # gem 'flamegraph'
-=======
   gem 'flamegraph'
   gem 'stackprof'
 
   gem 'bummr'
->>>>>>> upstream-updates
 end
 
 group :test do
