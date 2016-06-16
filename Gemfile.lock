@@ -30,7 +30,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     addressable (2.3.8)
-    ast (2.2.0)
+    ast (2.3.0)
     autoparse (0.3.3)
       addressable (>= 2.3.1)
       extlib (>= 0.9.15)
@@ -43,6 +43,12 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
+<<<<<<< HEAD
+=======
+    bummr (0.1.2)
+      colorize
+      thor
+>>>>>>> upstream-updates
     capybara (2.7.1)
       addressable
       mime-types (>= 1.16)
@@ -53,6 +59,7 @@ GEM
     chunky_png (1.3.5)
     cliver (0.3.2)
     coderay (1.1.1)
+    colorize (0.7.7)
     compass (1.0.3)
       chunky_png (~> 1.2)
       compass-core (~> 1.0.2)
@@ -91,9 +98,10 @@ GEM
       thor (~> 0.19)
     diff-lcs (1.2.5)
     docile (1.1.5)
-    email_spec (1.6.0)
+    email_spec (2.1.0)
+      htmlentities (~> 4.3.3)
       launchy (~> 2.1)
-      mail (~> 2.2)
+      mail (~> 2.6.3)
     erubis (2.7.0)
     execjs (2.7.0)
     extlib (0.9.16)
@@ -104,6 +112,10 @@ GEM
     ffi (1.9.10)
     figaro (1.1.1)
       thor (~> 0.14)
+<<<<<<< HEAD
+=======
+    flamegraph (0.9.5)
+>>>>>>> upstream-updates
     font-awesome-rails (4.6.3.0)
       railties (>= 3.2, < 5.1)
     get_process_mem (0.2.1)
@@ -149,11 +161,8 @@ GEM
       haml (~> 4.0.0)
       nokogiri (~> 1.6.0)
       ruby_parser (~> 3.5)
+    htmlentities (4.3.4)
     i18n (0.7.0)
-    jshint (1.4.0)
-      execjs (>= 1.4.0)
-      multi_json (~> 1.0)
-      therubyracer (~> 0.12.1)
     json (1.8.3)
     jwt (1.5.4)
     kaminari (0.17.0)
@@ -164,11 +173,17 @@ GEM
       addressable (~> 2.3)
     letter_opener (1.4.1)
       launchy (~> 2.2)
+<<<<<<< HEAD
     libv8 (3.16.14.15)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
+=======
+    listen (3.0.6)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9.7)
+>>>>>>> upstream-updates
     little-plugger (1.1.4)
     logging (2.1.0)
       little-plugger (~> 1.1)
@@ -230,11 +245,14 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rainbow (2.1.0)
+<<<<<<< HEAD
     rake (11.1.2)
+=======
+    rake (10.5.0)
+>>>>>>> upstream-updates
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
-    ref (2.0.0)
     requirejs-rails (0.9.5)
       railties (>= 3.1.1)
     retriable (1.4.1)
@@ -262,8 +280,12 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
     ruby-progressbar (1.8.1)
+<<<<<<< HEAD
     ruby_dep (1.3.1)
     ruby_parser (3.8.2)
+=======
+    ruby_parser (3.8.1)
+>>>>>>> upstream-updates
       sexp_processor (~> 4.1)
     safe_yaml (1.0.4)
     sass (3.4.22)
@@ -302,12 +324,10 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
+    stackprof (0.2.9)
     sysexits (1.2.0)
     term-ansicolor (1.3.2)
       tins (~> 1.0)
-    therubyracer (0.12.2)
-      libv8 (~> 3.16.14.0)
-      ref
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (1.4.1)
@@ -318,7 +338,11 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.0.5)
     vcr (3.0.3)
+<<<<<<< HEAD
     webmock (1.24.6)
+=======
+    webmock (2.1.0)
+>>>>>>> upstream-updates
       addressable (>= 2.3.6)
       crack (>= 0.3.2)
       hashdiff
@@ -336,19 +360,19 @@ DEPENDENCIES
   actionmailer
   better_errors
   binding_of_caller (~> 0.7.2)
+  bummr
   capybara (~> 2.4)
   compass-rails
   coveralls
   dalli (~> 2.7.1)
   derailed
-  email_spec (~> 1.6.0)
+  email_spec
   faraday-http-cache (~> 1.0)
   figaro
   font-awesome-rails
-  google-api-client (~> 0.8.1)
+  google-api-client (~> 0.8.6)
   haml-rails
   haml_lint
-  jshint
   kaminari
   kgio
   letter_opener
@@ -370,9 +394,10 @@ DEPENDENCIES
   spring-commands-rspec
   spring-watcher-listen
   sprockets (~> 2.12)
+  stackprof
   uglifier
   vcr
-  webmock (~> 1.20)
+  webmock (~> 2.1)
   yard
 
 RUBY VERSION
