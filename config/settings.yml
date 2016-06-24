@@ -30,7 +30,7 @@ admin_site: https://sg-ohana-api.herokuapp.com/admin
 # otherwise you won't receive any feedback emails.
 feedback_email:
   to:
-    - demo@example.com
+    - messinger06+ohana-search@gmail.com
 
 ##########################
 #
