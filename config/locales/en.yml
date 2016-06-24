@@ -22,9 +22,10 @@
 en:
   branding:
     description: >
-      Get detailed information about the services available
-      in %{location}.
+      Get detailed information about community support and social services available
+      near you in %{location}.
     header: 'Find community services in %{location}'
+    about_header: 'Your %{location} social service directory'
     location: 'Sedgwick County'
 
   buttons:
@@ -143,4 +144,4 @@ en:
     feedback:
       issue_link: 'File an issue on Github'
       issue_link_url: 'https://github.com/codeforamerica/Ohana-Web-Search/issues'
-      submit_comment_label: 'Submit comments to the development team:'
+      submit_comment_label: 'Submit comments to the team:'
