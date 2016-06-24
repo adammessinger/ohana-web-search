@@ -12,8 +12,8 @@
           Print
       %span><
         %a.button-utility.button-share-email{ href: mailto_url }
-          %i.fa.fa-share
-          Email
+          %i.fa.fa-paper-plane
+          Email It
       - if location.coordinates.present?
         %span><
           %a.button-utility.button-directions{ href: "https://maps.google.com/maps?saddr=current+location&daddr=#{full_address_for(location.address)}", target: '_blank' }
