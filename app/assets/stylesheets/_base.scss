@@ -441,7 +441,7 @@ body {
 
     color: $black; // IE fallback
     color: rgba($black, .7);
-    text-shadow: 1px 4px 6px lightest($primary), 0 0 0 $black, 1px 4px 6px lightest($primary);
+    text-shadow: 0 0 5px lightest($primary);
   }
 
   .input-search-big {
