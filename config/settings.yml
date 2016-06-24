@@ -200,7 +200,9 @@ info_box_terms:
     synonyms:
       - snap
       - food stamps
-      - calfresh
+      - ess
+      - ess food assistance
+      - economic and employment support food assistance
     title: SNAP
     description:
       'SNAP offers nutrition assistance to millions of eligible,
@@ -220,16 +222,22 @@ info_box_terms:
 # The format should be 'Language: code', as shown below.
 # To see a list of all supported languages and codes, read the
 # "Language reference" section in the Google Translate documentation:
-# https://cloud.google.com/translate/v2/using_rest#language-params
+# https://cloud.google.com/translate/v2/translate-reference#supported_languages
 # If you do not wish to include any language translation links,
 # comment out or delete all of the language settings shown.
+#
+# NOTE: language selection based on census data for languages spoken in
+# Wichita according to this source --
+# https://cloud.google.com/translate/v2/translate-reference#supported_languages
+# and the most commonly spoken Afffrican language in KS according to this one:
+# http://www.slate.com/articles/arts/culturebox/2014/05/language_map_what_s_the_most_popular_language_in_your_state.html
 language_links:
   - 'English: en'
   - 'Español: es'
-  - 'Tagalog: tl'
+  - 'tiếng Việt: vi'
   - '中文: zh-CN'
   - 'العربية: ar'
-  - 'Русский: ru'
+  - 'Kiswahili: sw'
 
 ######################
 #
