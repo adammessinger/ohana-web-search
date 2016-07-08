@@ -228,7 +228,7 @@ info_box_terms:
 #
 # NOTE: language selection based on census data for languages spoken in
 # Wichita according to this source --
-# https://cloud.google.com/translate/v2/translate-reference#supported_languages
+# http://factfinder.census.gov/bkmk/table/1.0/en/ACS/14_5YR/B16001/0500000US20173
 # and the most commonly spoken Afffrican language in KS according to this one:
 # http://www.slate.com/articles/arts/culturebox/2014/05/language_map_what_s_the_most_popular_language_in_your_state.html
 language_links:
